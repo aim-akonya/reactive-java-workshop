@@ -36,12 +36,10 @@ public class Exercise1 {
 				.forEach(entry -> System.out.println(entry));
 
 		// or
-
 		StreamSources.intNumbersStream().flatMap(id -> StreamSources.userStream().filter(user -> user.getId() == id))
 				.forEach(entry -> System.out.println(entry.getFirstName()));
-		
+
 		// parallel streams
 		StreamSources.userStream().parallel().forEach(entry -> System.out.println(entry.getFirstName()));
 	}
-
 }
