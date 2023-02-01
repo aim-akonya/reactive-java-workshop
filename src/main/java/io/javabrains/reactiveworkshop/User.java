@@ -1,4 +1,5 @@
 package io.javabrains.reactiveworkshop;
+
 // https://www.youtube.com/watch?v=WbxFxEO1fos&list=PLqq-6Pq4lTTYPR2oH7kgElMYZhJd4vOGI&index=15
 /**
  * This class is a sample custom Java type used in the exercises. DO NOT MODIFY
